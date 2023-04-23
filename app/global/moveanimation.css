@@ -1,0 +1,37 @@
+@keyframes reverselefttoright {
+    0%   {background: red; left: 0px;}
+    70%  {background: blue; left: 60px;}
+    100% {background: red; left: 0px;}
+}
+
+.reverselefttoright {
+    position: absolute;
+}
+.reverselefttoright:hover {
+    animation-name: reverselefttoright;
+    animation-duration: 2s;
+    color: blue;
+    animation-iteration-count: 1;
+}
+
+/*.reverselefttoright{
+   animation-name: out;
+   animation-duration:2s;
+
+}
+.reverselefttoright:hover{
+   animation-name: in;
+   animation-duration:2s;
+   animation-iteration-count:infinite;
+
+}
+
+@keyframe in{
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+@keyframe in{
+    from {background-color: yellow;}
+    to {background-color: red;}
+}*/
